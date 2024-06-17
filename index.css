@@ -1,6 +1,17 @@
 h1 {
-    color :red;
+    background :linear-gradient(black,gray);
+    color :white;
 }
 h2 {
-
+    background :linear-gradient(0.7turn,white,yellow);
+}
+p {
+    border-bottom :solid;
+    border-bottom-color :red;
+    color:Indigo;
+}
+@media (hover:hover){
+    a:hover {
+        background:hotpink;
+    }
 }
