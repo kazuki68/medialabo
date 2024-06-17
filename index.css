@@ -1,6 +1,7 @@
 h1 {
     background :linear-gradient(black,gray);
     color :white;
+    text-shadow:yellow 1px 0 10px;
 }
 h2 {
     background :linear-gradient(0.7turn,white,yellow);
