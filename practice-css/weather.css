@@ -1,7 +1,7 @@
 h2 { 
-    background: linear-gradient(blue,white);
+    background : linear-gradient(blue,white);
     color :red;
 }
 li {
-    border-bottom :solid;
+    border-bottom : solid;
 }
