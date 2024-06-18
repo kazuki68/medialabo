@@ -1,6 +1,6 @@
 h2 { 
     background: linear-gradient(blue,white);
-
+    color :red;
 }
 li {
     border-bottom :solid;
