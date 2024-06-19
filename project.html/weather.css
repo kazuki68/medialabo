@@ -6,5 +6,8 @@ li {
     border-bottom : solid;
     border-bottom-color :white;
     background-color :lightblue;
-
+}
+img.sign {
+    width :20px;
+    height :20px;
 }
