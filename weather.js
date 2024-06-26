@@ -46,4 +46,13 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-
+console.log("世界の天気");
+console.log("東京の天気");
+console.log("緯度：139.6917");
+console.log("経度：35.6894");
+console.log("天気：晴れ/曇り");
+console.log("最低気温：19.5°");
+console.log("最高気温：29°");
+console.log("湿度：50");
+console.log("風速：3.0");
+console.log("風向：南南東");
