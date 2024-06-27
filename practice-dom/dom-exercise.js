@@ -14,16 +14,45 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
-let h1 = document.querySelector('h2#ex42');
+let h2 = document.querySelector('h2#ex42');
 let p = document.createElement('p'); 
+p.style.textEmphasis = 'sesame green';
 p.textContent = '写真表と都市の緯度経度のページです' ;
-p.style.textemphasis = 'sesame green';
-h1.insertAdjacentElement('afterend', p);
-
-
-
+h2.insertAdjacentElement('afterend', p);
 
 // 練習4-3 写真表作成プログラム
+let x = document.querySelector('div#phototable');
+let x1 = document.createElement('p');
+let x2 = document.createElement('img');
+x2.setAttribute('src','taro.png');
+x1.insertAdjacentElement('beforeend', x2);
+x.insertAdjacentElement('beforeend', x1); 
+
+let y = document.querySelector('div#phototable');
+let y1 = document.createElement('p');
+let y2 = document.createElement('img');
+y2.setAttribute('src','jiro.png');
+y1.insertAdjacentElement('beforeend', y2);
+y.insertAdjacentElement('beforeend', y1); 
+
+let z = document.querySelector('div#phototable');
+let z1 = document.createElement('p');
+let z2 = document.createElement('img');
+z2.setAttribute('src','hanako.png');
+z1.insertAdjacentElement('beforeend', z2);
+z.insertAdjacentElement('beforeend', z1); 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // 練習4-4 箇条書き削除プログラム
