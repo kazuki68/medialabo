@@ -15,8 +15,10 @@ let data = [
 
 // 練習4-2 メッセージ追加プログラム
 let h1 = document.querySelector('h2#ex42');
-let p = document.createElement('p');
+let p = document.createElement('p'); 
 p.textContent = '写真表と都市の緯度経度のページです' ;
+p.style.textemphasis = 'sesame green';
+h1.insertAdjacentElement('afterend', p);
 
 
 
