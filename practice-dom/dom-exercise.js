@@ -42,21 +42,13 @@ z2.setAttribute('src','hanako.png');
 z1.insertAdjacentElement('beforeend', z2);
 z.insertAdjacentElement('beforeend', z1); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 練習4-4 箇条書き削除プログラム
-
+let w = document.querySelector('li');
+w.remove();
+let w1 = document.querySelector('li');
+w1.remove();
+let w2 = document.querySelector('li');
+w2.remove();
 
 // 練習4-5 箇条書き追加プログラム
 
