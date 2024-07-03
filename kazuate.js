@@ -14,6 +14,7 @@ let kaisu = 0;
 
 hantei();
 
+
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   kaisu = kaisu + 1;
