@@ -51,4 +51,9 @@ let w2 = document.querySelector('li');
 w2.remove();
 
 // 練習4-5 箇条書き追加プログラム
-
+const ul = document.querySelector('ul');
+for(const obj of data){
+	const li = document.createElement('li');
+	li.textContent = `${obj.name}...経度:${obj.lat},経度:${obj.lng}`;
+	ul.appendChild(li);
+}
