@@ -1,7 +1,7 @@
 let data = {
   "coord": {
     "lon": 116.3972,
-    "lat": 39.9075
+    "lat": 39.9075,
   },
   "weather": [
     {
@@ -47,13 +47,22 @@ let data = {
 
 ////////// 課題3-2 ここからプログラムを書こう
 
-console.log("世界の天気");
-console.log("東京の天気");
-console.log("緯度：139.6917");
-console.log("経度：35.6894");
-console.log("天気：晴れ/曇り");
-console.log("最低気温：19.5°");
-console.log("最高気温：29°");
-console.log("湿度：50");
-console.log("風速：3.0");
-console.log("風向：南南東");
+let resultDiv = document.getElementById('result');
+
+let weatherInfo = `
+    <ul>
+        <img class="sign" src="https://illustk.com/wp-content/img/illust/simple_cloud.png" alt="Cloud Image">
+        <img class="sign" src="https://illust8.com/wp-content/uploads/2018/08/weather_sun_solar_illust_1080.png" alt="Sun Image">
+        <li>緯度：${data.coord.lat}</li>
+        <li>経度：${data.coord.lon}</li>
+        <li>天気：${data.weather[0].description}</li>
+        <li>気温：${data.main.temp}°</li>
+        <li>湿度：${data.main.humidity}%</li>
+        <li>風速：${data.wind.speed} m/s</li>
+        <li>風向：${data.wind.deg}°</li>
+        <li>都市名：${data.name}</li>
+    </ul>
+`;
+
+// HTML要素に天気情報を追加
+resultDiv.innerHTML = weatherInfo;
