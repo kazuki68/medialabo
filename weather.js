@@ -66,3 +66,12 @@ let weatherInfo = `
 
 // HTML要素に天気情報を追加
 resultDiv.innerHTML = weatherInfo;
+
+let b = document.querySelector('#print');
+b.addEventListener('click', greeting);
+
+function greeting() {
+  let i = document.querySelector('input[name="tosimei"]');
+  let tosimei = i.value;       
+  console.log(tosimei);
+}
