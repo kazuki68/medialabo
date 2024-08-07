@@ -90,7 +90,7 @@ resultDiv.innerHTML = weatherInfo;
           <ul>
               <li>緯度：-26</li>
               <li>経度：28</li>
-              <li>天気：雲</li>
+              <li>天気：曇り</li>
               <li>気温：13.6°</li>
               <li>湿度：92%</li>
               <li>風速：1.3m/s</li>
@@ -234,7 +234,7 @@ resultDiv.innerHTML = weatherInfo;
           <ul>
               <li>緯度：34</li>
               <li>経度：-118</li>
-              <li>天気：雲</li>
+              <li>天気：曇り</li>
               <li>気温：10.1°</li>
               <li>湿度：75%</li>
               <li>風速：1.5m/s</li>
